@@ -54,7 +54,7 @@ d3.json("data/samples.json").then((bbData) => {
         y: newLabels,
         text: topTenToolTips,
         type: "bar",
-        orientation: "h"
+        orientation: "h"       
       };
   
       // data
@@ -63,7 +63,7 @@ d3.json("data/samples.json").then((bbData) => {
       // layout
       var layout = {
         title: "Top 10 Operational Taxonomic Units (OTUs)",
-        };
+               };
   
       // plot bar graph
       Plotly.newPlot("bar", barData, layout);
