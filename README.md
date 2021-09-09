@@ -1,4 +1,3 @@
-# plotly_challenge
 # Belly Button Biodiversity
 
 This site can be viewed at <a href="https://kblood86.github.io/plotly_challenge/">Plotly Challenge </a>
